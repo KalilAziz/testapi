@@ -6,16 +6,19 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
     "target": "es2017",
     "sourceMap": true,
     "outDir": "./build",
     "baseUrl": "./",
+    "resolveJsonModule": true,
     "incremental": true,
-    "skipLibCheck": true,
-    "strictNullChecks": false,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
-    "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": ["./src/*"],
+ 
+    }
   }
 }
